@@ -50,16 +50,17 @@ body {
 
 }
 .apresentacao_links_dos_botoes {
-    border: 2px solid #22D4FD;
-    width: 378px;
+	position: relative;
+   border: 2px solid #22D4FD; /* Exemplo de cor da borda */
+    color: #F6F6F6; /* Cor do texto */
+    width: 280px; /* Largura do botão */
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
-    text-decoration: none;
-    color: #F6F6F6;
-    font-family: 'Montserrat', sans-serif;
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    font-family: 'Montserrat', sans-serif; /* Exemplo de fonte */
 }
 
 .apresentacao_links_subtitulo {
@@ -78,4 +79,16 @@ body {
 
 body header h1 {
     font-family: 'Montserrat', sans-serif;
+}
+.imagem_github {
+    position: absolute;
+    top: 13px;
+    left: 19px;
+    right: 0px;
+    bottom: 0px;
+}
+.imagem_instagram {
+    position: absolute;
+    top: 11px;
+    left: 15px;
 }
