@@ -66,6 +66,7 @@ body {
 
 .titulo-destaque {
     color: var(--cor-principal);
+    position: relative;	
 }
 
 .apresentacao__conteudo__texto {
@@ -139,10 +140,15 @@ body header h1 {
 }
 
 .rodape {
-    padding: 1.5rem; /* 24px */
     color: var(--cor-rodape-texto);
     background-color: var(--cor-principal);
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem; /* 24px */
+}
+
+.imagem_principal {
+    position: relative;
+    right: 1rem;
+    left: 4rem;
 }
