@@ -8,6 +8,8 @@
 h1 {
     color: #FFFFFF;
     font-size: 36px;
+    position: relative;
+    top: 1px;
 }
 
 p {
@@ -20,10 +22,24 @@ body {
     color: #f6f6f6;
     align-content: flex-start;
 }
+.cabecalho {
+	
+	padding: 2% 0 0 15%;
+}
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
 
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+	color: #22D4FD;
+}
 
 .apresentacao {
-    padding: 8% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
