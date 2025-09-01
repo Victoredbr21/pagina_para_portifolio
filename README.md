@@ -1,52 +1,86 @@
-Claro! Baseado nos seus arquivos HTML e CSS, criei uma sugestão de README.md para o seu repositório no GitHub.
+# Portfólio Pessoal de Victor Américo
+**Um desenvolvedor Back-end com raízes no Mercado Financeiro**
 
-Portfólio - Victor Américo
-## 📝 Descrição do Projeto
+Este repositório contém o código-fonte do meu portfólio pessoal, uma página web projetada para ser meu cartão de visitas digital.  
+O objetivo principal é apresentar minha jornada profissional, minhas competências técnicas e a fusão única entre minhas experiências no mercado financeiro e no desenvolvimento de software.
 
-Este é o projeto do meu portfólio pessoal, desenvolvido para apresentar minhas habilidades como desenvolvedor Back-end e compartilhar um pouco da minha trajetória profissional. O site é composto por duas páginas principais: uma Home, que serve como cartão de visitas, e uma página Sobre mim, que detalha minha jornada desde o mercado financeiro até a programação.
+---
 
-O design foi construído para ser limpo e moderno, com foco na legibilidade e na experiência do usuário.
+## 📋 Índice
+- [Visão Geral do Projeto](#-visão-geral-do-projeto)
+- [Minha Trajetória](#-minha-trajetória-do-mercado-financeiro-à-programação)
+- [Recursos e Funcionalidades](#-recursos-e-funcionalidades)
+- [Tecnologias e Conceitos Aplicados](#️-tecnologias-e-conceitos-aplicados)
+- [Estrutura de Arquivos](#-estrutura-de-arquivos-do-projeto)
+- [Como Executar Localmente](#-como-executar-o-projeto-localmente)
+- [Processo de Desenvolvimento](#-processo-de-desenvolvimento)
+- [Contato](#-contato)
 
-👨‍💻 Sobre Mim
-Olá! Sou Victor Américo, um desenvolvedor Back-end com foco em Java e MQL5. Minha carreira começou no mercado financeiro, onde atuei de forma autônoma e obtive diversas certificações. Com o objetivo de automatizar minhas operações e criar soluções tecnológicas para o mercado, transitei para a área de desenvolvimento de software, buscando unir minhas duas paixões: finanças e tecnologia.
+---
 
-Este portfólio é um reflexo dessa jornada e um espaço para demonstrar os projetos que venho desenvolvendo.
+## 🌟 Visão Geral do Projeto
+Este projeto é mais do que um simples currículo online; é uma declaração da minha transição de carreira e da minha paixão por resolver problemas complexos.  
+A aplicação é dividida em duas seções principais:
 
-🚀 Tecnologias Utilizadas
-O projeto foi construído utilizando as seguintes tecnologias:
+- **Página Inicial (`index.html`)**  
+  Introdução direta e impactante, destacando minha proposta de valor como desenvolvedor Back-end e fornecendo acesso rápido às minhas redes profissionais.  
+  O slogan *"Eleve seu negócio digital a outro nível com um Back-end de qualidade!"* resume meu foco em construir sistemas robustos e eficientes.
 
-HTML5: Para a estruturação semântica do conteúdo.
+- **Página Sobre Mim (`about.html`)**  
+  Minha história: começando em 2018 no mercado de ações, passando por certificações e atuação em mesas proprietárias, até a decisão estratégica de mergulhar no mundo da programação através do programa **Oracle Next One**, com foco em **Java** e **MQL5**.
 
-CSS3: Para a estilização, layout e design. Foram empregados recursos modernos como:
+O design foi planejado para ser moderno, limpo e profissional, com paleta de cores contrastante e tipografia forte para garantir excelente leitura.
 
-Flexbox para o alinhamento e organização dos elementos.
+---
 
-CSS Variables para um gerenciamento de tema mais fácil e consistente (cores, fontes, etc.).
+## 🚀 Minha Trajetória: Do Mercado Financeiro à Programação
+A seção *Sobre mim* narra uma jornada de autodesenvolvimento e especialização contínua:
 
-Google Fonts (Krona One e Montserrat) para uma tipografia mais elaborada.
+- **2018**: Início dos estudos sobre o mercado de ações.  
+- **2019 - Atualmente**: Consolidação no mercado futuro americano (Índice Dow Jones na bolsa CBOT).  
+- **Certificações e Reconhecimento**: Formação em B3, CME Group Institute e ANBIMA. Aprovação em mesas proprietárias como **FTMO** e **MFF**.  
+- **Virada para a Tecnologia**: Ingresso no programa **Oracle Next One** para aprender programação com o objetivo de **automatizar operações financeiras**.  
+- **Objetivo Final**: Utilizar **Java** e **MQL5** para criar **algoritmos de negociação**, **aplicações inteligentes** e **APIs financeiras**, explorando ao máximo dados e automação.  
 
-✨ Funcionalidades
-Design responsivo e moderno.
+---
 
-Navegação simples entre as páginas "Home" e "Sobre mim".
+## ✨ Recursos e Funcionalidades
+- **Navegação Intuitiva**: Cabeçalho fixo com links claros.  
+- **Design Responsivo**: Adaptável a diferentes telas.  
+- **Layout Profissional**: Construído com **Flexbox** para alinhamento perfeito.  
+- **Identidade Visual Coesa**: Paleta de cores e tipografia centralizadas em variáveis CSS.  
+- **Links Sociais Interativos**: Botões estilizados com ícones e efeito hover.  
 
-Links diretos para minhas redes sociais e profissionais: GitHub, Instagram e LinkedIn.
+---
 
-Layout organizado em componentes claros: cabeçalho, conteúdo principal e rodapé.
+## 🛠️ Tecnologias e Conceitos Aplicados
+Este projeto foi construído do zero com tecnologias web fundamentais.
 
-📂 Como Executar o Projeto
-Para visualizar o projeto, basta clonar este repositório e abrir o arquivo index.html em seu navegador de preferência.
+**Frontend:**
+- **HTML5**: Uso de tags semânticas (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`).  
+- **CSS3**:  
+  - **Flexbox** para layout.  
+  - **Variáveis CSS** (`:root`) para paleta principal:  
+    ```css
+    --cor-fundo: black;
+    --cor-principal: #22D4FD;
+    --cor-texto-claro: #F6F6F6;
+    ```
+  - **Posicionamento Absoluto/Relativo** para ícones.  
 
-Bash
+**Design e Tipografia:**
+- **Google Fonts**: *Krona One* (títulos) e *Montserrat* (corpo do texto).  
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
-# Abra o arquivo index.html no navegador
-📬 Contato
-LinkedIn: Victor Eduardo Américo
+---
 
-Instagram: @victoredbr21
-
-GitHub: Victoredbr21
-
-© Desenvolvido por Victor Américo.
+## 📁 Estrutura de Arquivos do Projeto
+```bash
+/
+├── index.html         # Página principal (Home)
+├── about.html         # Página "Sobre mim"
+├── style.css          # Folha de estilos principal
+└── img/               # Diretório para imagens
+    ├── foto victor.jpg
+    ├── github.png
+    ├── instagram.png
+    └── linkedin.png
