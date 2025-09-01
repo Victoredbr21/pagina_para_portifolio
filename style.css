@@ -50,20 +50,30 @@ body {
 
 }
 .apresentacao_links_dos_botoes {
-    background-color: #22d4fd;
-    width: 280px;
-    border-radius: 16px;
+    border: 2px solid #22D4FD;
+    width: 378px;
     text-align: center;
-    padding: 21.5px 0;
+    border-radius: 8px;
     font-size: 24px;
-    text-decoration: none;
-    color: #000000;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
 }
+
+.apresentacao_links_subtitulo {
+    font-family: 'Krona One', sansserif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
 .apresentacao_links {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+	gap: 32px;
 }
 
 body header h1 {
