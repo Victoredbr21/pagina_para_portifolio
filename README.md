@@ -19,6 +19,8 @@ O objetivo principal é apresentar minha jornada profissional, minhas competênc
 ---
 
 ## 🌟 Visão Geral do Projeto
+<img width="1602" height="863" alt="image" src="https://github.com/user-attachments/assets/023b53d8-46ef-4f89-99d9-de12a9e168be" />
+
 Este projeto é mais do que um simples currículo online; é uma declaração da minha transição de carreira e da minha paixão por resolver problemas complexos.  
 A aplicação é dividida em duas seções principais:
 
